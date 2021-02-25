@@ -1,11 +1,9 @@
+import { ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { AppModule } from './app.module';
-import { entityNotFoundExceptionFilter } from './exceptionFilters/entityNotFound.exceptionFilter';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-
-  app.useGlobalFilters(new entityNotFoundExceptionFilter());
 
   const options = new DocumentBuilder()
     .setTitle('Nest.js - Base API')
