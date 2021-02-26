@@ -1,3 +1,4 @@
-# node_modules
-# dist
-# .npm-cache
+node_modules
+dist
+.npm-cache
+.docker/dbdata
