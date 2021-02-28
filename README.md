@@ -38,7 +38,7 @@ The command will upload all the services necessary for the application to work.
 }
 ```
 ### Run tests
-- Run `docker exec -it crawler-app cd /home/node/app/ && npm test -- --runInBand`
+- Run `docker exec -it crawler-app cd /home/node/app/ && npm test`
 ## Features
 In this project you can search for information about places to stay by entering the checkin and checkout date.
 
