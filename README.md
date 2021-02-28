@@ -42,10 +42,17 @@ The command will upload all the services necessary for the application to work.
 ## Features
 In this project you can search for information about places to stay by entering the checkin and checkout date.
 
-### Insomnia Printscreen
-![Intro](./images/api.png)
+### Insomnia Places
+![Intro](./images/places.png)
+### Insomnia Error 1
+![Intro](./images/err1.png)
+
+### Insomnia Error 2
+![Intro](./images/err2.png)
+### Insomnia Error 3
+![Intro](./images/full.png)
 ### Page: API Documentation
-![Login](./images/api_documentation.png)
-### Coverage Tests
+![Login](./images/documentation_api.png)
+### Tests
 ![Tests](./images/tests.png)
 #### Thanks!
